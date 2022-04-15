@@ -2,23 +2,22 @@
 <html lang="en">
 
 <head>
-    <title>Google Frontend</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
     <script src="https://use.fontawesome.com/2180418238.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
         <ul>
-            <li><a href="image_search.html">Image Search</a></li>
-            <li><a href="advance_search.html">Advanced Search</a></li>
-            <li><i class="fa fa-th"></i></li>
-            <li><i class="fa fa-user"></i></li>
+            <li><a href="index.html">Back to Main</a></li>
         </ul>
     </header>
-    <div class="image_container"><img src="images/google_img.png"></div>
-    <section>
 
+    <section>
+        <div class="image_container"><img src="images/google_img.png"><span>images</span></div>
         <form action="https://google.com/search" target="_blank">
             <div class="search_bar">
                 <i class="fa fa-search"></i>
@@ -27,10 +26,12 @@
             <div class="search_buttons">
                 <input type="submit" value="Google Search">
                 <input type="submit" name="btnI" value="I'm Feeling Lucky">
+                <input type="hidden" name="tbm" value="isch">
             </div>
         </form>
-        <p>Google offered in: <a href="#" style="color:blue">Kiswahili</a></p>
+        <p>Google offered in: <a href="#">Kiswahili</a></p>
     </section>
+
     <footer>
 
         <ul>
